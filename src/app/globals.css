@@ -1,0 +1,23 @@
+body {
+  background: linear-gradient(135deg, #ece9e6, #ffffff); /* Gradien latar belakang yang halus */
+  font-family: 'Poppins', sans-serif; /* Font modern */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Bayangan yang lebih lembut */
+  padding: 40px;
+  text-align: center;
+  width: 380px;
+  transition: transform 0.3s;
+}
+
+.container:hover {
+  transform: translateY(-5px); /* Efek hover agar kontainer naik sedikit */
+}
